@@ -24,6 +24,6 @@ All MRI scans in the dataset underwent the following preprocessing:
 usage: python registration.py --dataset_dir DIRNAME --ref_template TEMPLATE
 
 arguments:
-  -dataset_dir      Path to the MSLesSeg-RAW dataset
-  -ref_template     "Path to the MNI152 template. Default: ./resources/MNI152_T1_1mm.nii.
+  --dataset_dir      Path to the MSLesSeg-RAW dataset
+  --ref_template     "Path to the MNI152 template. Default: ./resources/MNI152_T1_1mm.nii.
 ```
